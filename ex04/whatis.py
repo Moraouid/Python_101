@@ -13,5 +13,5 @@ try:
     if int(args[1]) % 2 == 1:
         print("I'm Odd.")
 except ValueError:
-    print("AssertionError: argument is not a valid integer")
+    print("AssertionError: more than one argument is provided")
     
